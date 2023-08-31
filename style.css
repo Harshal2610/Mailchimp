@@ -1,0 +1,216 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+/* left elements */ 
+body{
+    background-color: rgb(243, 255, 255);
+}
+.navbar{
+    display: flex;
+    padding: 15px;
+    background-color: rgb(243, 255, 255);
+    height: 45px;
+    position: sticky;
+    top: 0px;
+}
+.navbar:hover{
+    background-color: white;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-left li{
+    margin: 0px 10px;
+    padding: 5px 10px;
+    list-style: none;
+    border-radius: 1.5px;
+}
+.nav-left li:hover{
+    background-color: rgba(0, 0, 0, 0.103);
+}
+.nav-left li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #241c15;
+    font-family: 'Open Sans', sans-serif;
+}
+#litem-1 a{
+    font-size: 1.5rem;
+}
+
+/* right elements */
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 300px;
+}
+.nav-right li{
+    margin: 0px 10px;
+    padding: 5px 10px;
+    list-style: none;
+    border-radius: 1.5px
+}
+.nav-right li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #241c15;
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    padding: 12px 25px;
+    margin: 0px 10px;
+    margin-right: 5px;
+    border-radius: 25px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    transition: all 2 ease-in 1;
+}
+.nav-right li:hover{
+    background-color: rgba(0, 0, 0, 0.103);
+}
+.button-2{
+    background-color: #ffe01b;
+}
+.button:hover{
+    transform: translateY(-5px);
+    border-bottom: 5px solid black;
+}
+
+/* box-1 */
+.box-1{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.box1-left{
+    width: 550px;
+    height: 350px;
+}
+.box1-left span{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 0px;
+}
+.box1-left h1{
+    font-size: 3rem;
+    line-height: 70px;
+}
+.box1-left p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+.button-3{
+    margin: 45px 10px;
+    background-color: #ffe01b;
+}
+.box1-right{
+    background-image: url("AUI_Website-Builder_01-Hero.avif");
+    height: 450px;
+    width: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 2nd box */
+.box-2{
+    display: block;
+    padding: 100px 250px;
+    /* width: 100vw; */
+    height: 200px;
+    background-color: white;
+    text-align: center;
+}
+.box-2 h1{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+.box-2 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* box 3 */
+.box-3{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.box3-left{
+    background-image: url("22_Website-Builder_AUI_2.avif");
+    height: 550px;
+    width: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3-right{
+    width: 450px;
+    height: 300px;
+}
+.box3-right h4{
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+}
+.box3-right p{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.button-4{
+    margin: 50px 0px;
+    background-color: #fff;
+}
+
+/* box-5 */
+.box-5{
+    text-align: center;
+    height: 120px;
+    padding: 100px;
+    background-color: #ffe01b;
+}
+.box-5 h1{
+    padding-bottom: 15px;
+}
+.box-5 p{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* footer */
+
+footer{
+    background-color: #e7b75f;
+    height: 150px;
+}
+footer li{
+    list-style: none;
+    padding: 0px 20px;
+}
+.div{
+    margin: 0px 190px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+    font-family: 'Roboto', sans-serif;
+}
+footer li{
+    line-height: 40px;
+    font-size: 0.9rem;
+}
+footer a{
+    color:#241c15;
+}
+footer a:hover{
+    background-color: #ffe01b;
+}
